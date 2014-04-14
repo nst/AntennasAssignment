@@ -4,9 +4,9 @@
 
 Given:
 
-- pop.png - a population map [0.0, 1.0] (pop.json)
-- cost.png - a costs map [0.0, 1.0] (cost.json)
-- antennas_and_budget.json - antennas number and power, cost limit
+- `pop.png` - a population map, from 0.0 to 1.0 (pop.json)
+- `cost.png` - a costs map, from 0.0 to 1.0 (cost.json)
+- `antennas_and_budget.json` - antennas number and power, cost limit
 
 Find:
 
