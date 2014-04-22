@@ -19,31 +19,31 @@ Such as:
 
 #### Generate a solution
 
-    $ python antennas_assignment.py 
-    grid: 1024x768
-    total_pop: 341540.42
-    total_possible_costs: 298744.75
-    budget: 1500
-    writing solution.json
-    people_covered: 72031 (21.09%), cost: 1178.831373
-    writing out.png
+	$ python antennas_assignment.py 
+	grid: 1024x768
+	total_pop: 341540.42
+	total_possible_costs: 298744.75
+	budget: 1500
+	writing solution.json
+	people_covered: 76348 (22.35%), cost: 1193.772549
+	writing out.png
 
 #### Evaluate a solution
 
-    $ python antennas_assignment.py solution.json 
-    grid: 1024x768
-    total_pop: 341540.42
-    total_possible_costs: 298744.75
-    budget: 1500
-    people_covered: 72031 (21.09%), cost: 1178.831373
-    writing out.png
+	$ python antennas_assignment.py solution.json 
+	grid: 1024x768
+	total_pop: 341540.42
+	total_possible_costs: 298744.75
+	budget: 1500
+	people_covered: 76348 (22.35%), cost: 1193.772549
+	writing out.png
 
 #### Sample solutions
 
-Random assignment (20% coverage, cost 1176)
+Random assignment (22% coverage, cost 1193)
 
-<img src="out_20_1176.png" width="512" border="1" />
+<img src="out_22_1193.png" width="512" border="1" />
 
-Improved assignment (26% coverage, cost 1498)
+Improved assignment (28% coverage, cost 1499)
 
-<img src="out_26_1498.png" width="512" border="1" />
+<img src="out_28_1499.png" width="512" border="1" />
