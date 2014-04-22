@@ -41,8 +41,7 @@ def build_cov_cost_grid(antennas, cost_grid, antennas_locations):
         for x_ in range(max(0, x-power), min(x+power+1, width)):
             for y_ in range(max(0, y-power), min(y+power+1, height)):
                 distance = math.sqrt((math.fabs(x_ - x)**2 + math.fabs(y_ - y)**2))
-                intensity = (power - distance) / power
-                if intensity > 0.0:
+                if distance <= power:
                     grid[y_][x_] = cost
                     
     return grid
