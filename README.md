@@ -25,7 +25,7 @@ Such as:
 	total_possible_costs: 298744.75
 	budget: 1500
 	writing solution.json
-	people_covered: 76348 (22.35%), cost: 1193.772549
+	people_covered: 76150 (22.30%), cost: 1177.427451
 	writing out.png
 
 #### Evaluate a solution
@@ -40,10 +40,10 @@ Such as:
 
 #### Sample solutions
 
-Random assignment (22% coverage, cost 1193)
+Random assignment, named `RANDOM`: 22% coverage, cost 1177
 
-<img src="out_22_1193.png" width="512" border="1" />
+<img src="out_22_1177_RANDOM.png" width="512" border="1" />
 
-Improved assignment (28% coverage, cost 1499)
+Improved assignment, named `GENETIC1`: 28% coverage, cost 1496
 
-<img src="out_28_1499.png" width="512" border="1" />
+<img src="out_28_1496_GENETIC1.png" width="512" border="1" />

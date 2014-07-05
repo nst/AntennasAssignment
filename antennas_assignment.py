@@ -7,7 +7,7 @@ import json
 import math
 import png # $ sudo pip install pypng, https://github.com/drj11/pypng
 
-#random.seed(0)
+random.seed(0)
 
 SOLUTION = "RANDOM"
 #SOLUTION = "GENETIC1"
