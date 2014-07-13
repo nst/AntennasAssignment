@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039336DA1970109D006EB6E3 /* DoubleMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 039336D91970109D006EB6E3 /* DoubleMatrix.m */; };
+		03E31FF7196EC25F00A407AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E31FF6196EC25F00A407AB /* Foundation.framework */; };
+		03E31FFA196EC25F00A407AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E31FF9196EC25F00A407AB /* main.m */; };
+		03E31FFE196EC25F00A407AB /* ObjCAntennas.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03E31FFD196EC25F00A407AB /* ObjCAntennas.1 */; };
+		03E3200E196ED4DB00A407AB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E3200D196ED4DB00A407AB /* AppKit.framework */; };
+		03E32011196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E32010196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03E31FF1196EC25F00A407AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				03E31FFE196EC25F00A407AB /* ObjCAntennas.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		039336D81970109D006EB6E3 /* DoubleMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleMatrix.h; sourceTree = "<group>"; };
+		039336D91970109D006EB6E3 /* DoubleMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleMatrix.m; sourceTree = "<group>"; };
+		03E31FF3196EC25F00A407AB /* ObjCAntennas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCAntennas; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E31FF6196EC25F00A407AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03E31FF9196EC25F00A407AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E31FFC196EC25F00A407AB /* ObjCAntennas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCAntennas-Prefix.pch"; sourceTree = "<group>"; };
+		03E31FFD196EC25F00A407AB /* ObjCAntennas.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjCAntennas.1; sourceTree = "<group>"; };
+		03E3200D196ED4DB00A407AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03E3200F196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBitmapImageRep+ObjCAntennas.h"; sourceTree = "<group>"; };
+		03E32010196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBitmapImageRep+ObjCAntennas.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E31FF0196EC25F00A407AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E3200E196ED4DB00A407AB /* AppKit.framework in Frameworks */,
+				03E31FF7196EC25F00A407AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E31FEA196EC25F00A407AB = {
+			isa = PBXGroup;
+			children = (
+				03E31FF8196EC25F00A407AB /* ObjCAntennas */,
+				03E31FF5196EC25F00A407AB /* Frameworks */,
+				03E31FF4196EC25F00A407AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E31FF4196EC25F00A407AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E31FF3196EC25F00A407AB /* ObjCAntennas */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E31FF5196EC25F00A407AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E3200D196ED4DB00A407AB /* AppKit.framework */,
+				03E31FF6196EC25F00A407AB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03E31FF8196EC25F00A407AB /* ObjCAntennas */ = {
+			isa = PBXGroup;
+			children = (
+				03E3200F196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.h */,
+				03E32010196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.m */,
+				039336D81970109D006EB6E3 /* DoubleMatrix.h */,
+				039336D91970109D006EB6E3 /* DoubleMatrix.m */,
+				03E31FF9196EC25F00A407AB /* main.m */,
+				03E31FFD196EC25F00A407AB /* ObjCAntennas.1 */,
+				03E31FFB196EC25F00A407AB /* Supporting Files */,
+			);
+			path = ObjCAntennas;
+			sourceTree = "<group>";
+		};
+		03E31FFB196EC25F00A407AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E31FFC196EC25F00A407AB /* ObjCAntennas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E31FF2196EC25F00A407AB /* ObjCAntennas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E32001196EC25F00A407AB /* Build configuration list for PBXNativeTarget "ObjCAntennas" */;
+			buildPhases = (
+				03E31FEF196EC25F00A407AB /* Sources */,
+				03E31FF0196EC25F00A407AB /* Frameworks */,
+				03E31FF1196EC25F00A407AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCAntennas;
+			productName = ObjCAntennas;
+			productReference = 03E31FF3196EC25F00A407AB /* ObjCAntennas */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E31FEB196EC25F00A407AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Seriot";
+			};
+			buildConfigurationList = 03E31FEE196EC25F00A407AB /* Build configuration list for PBXProject "ObjCAntennas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03E31FEA196EC25F00A407AB;
+			productRefGroup = 03E31FF4196EC25F00A407AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E31FF2196EC25F00A407AB /* ObjCAntennas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E31FEF196EC25F00A407AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039336DA1970109D006EB6E3 /* DoubleMatrix.m in Sources */,
+				03E31FFA196EC25F00A407AB /* main.m in Sources */,
+				03E32011196EDE9A00A407AB /* NSBitmapImageRep+ObjCAntennas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03E31FFF196EC25F00A407AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03E32000196EC25F00A407AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03E32002196EC25F00A407AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCAntennas/ObjCAntennas-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03E32003196EC25F00A407AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCAntennas/ObjCAntennas-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E31FEE196EC25F00A407AB /* Build configuration list for PBXProject "ObjCAntennas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E31FFF196EC25F00A407AB /* Debug */,
+				03E32000196EC25F00A407AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E32001196EC25F00A407AB /* Build configuration list for PBXNativeTarget "ObjCAntennas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E32002196EC25F00A407AB /* Debug */,
+				03E32003196EC25F00A407AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E31FEB196EC25F00A407AB /* Project object */;
+}

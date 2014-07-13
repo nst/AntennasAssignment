@@ -4,9 +4,9 @@
 
 Given:
 
-- `pop.png` - a population map, from 0.0 to 1.0 (pop.json)
-- `cost.png` - a costs map, from 0.0 to 1.0 (cost.json)
-- `antennas_and_budget.json` - antennas number and power, cost limit
+- `data/pop.png` - a population map, from 0.0 to 1.0 (pop.json)
+- `data/cost.png` - a costs map, from 0.0 to 1.0 (cost.json)
+- `data/antennas_and_budget.json` - antennas number and power, cost limit
 
 Find:
 
@@ -30,7 +30,7 @@ Such as:
 
 #### Evaluate a solution
 
-	$ python antennas_assignment.py solution.json 
+	$ python antennas_assignment.py ../results/solution.json 
 	grid: 1024x768
 	total_pop: 341540.42
 	total_possible_costs: 298744.75
@@ -42,8 +42,12 @@ Such as:
 
 Random assignment, named `RANDOM`: 22% coverage, cost 1177
 
-<img src="out_22_1177_RANDOM.png" width="512" border="1" />
+<img src="results/out_22_1177_RANDOM.png" width="512" border="1" />
 
-Improved assignment, named `GENETIC1`: 28% coverage, cost 1496
+Improved assignment, named `GENETIC`: 28% coverage, cost 1496
 
-<img src="out_28_1496_GENETIC1.png" width="512" border="1" />
+<img src="results/out_28_1496_GENETIC.png" width="512" border="1" />
+
+Improved assignment, named `OBJC`: 36% coverage, cost 1475
+
+<img src="results/out_36_1475_OBJC.png" width="512" border="1" />

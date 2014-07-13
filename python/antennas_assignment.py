@@ -10,7 +10,7 @@ import png # $ sudo pip install pypng, https://github.com/drj11/pypng
 random.seed(0)
 
 SOLUTION = "RANDOM"
-#SOLUTION = "GENETIC1"
+#SOLUTION = "GENETIC"
 
 def read_img_grid(image_path):
     f = open(image_path)
@@ -145,7 +145,7 @@ def compute_best_solution(antennas, pop_grid, cost_grid, budget):
 
     if SOLUTION is 'RANDOM':
         return compute_random_antenna_locations(antennas, pop_grid)
-    elif SOLUTION is 'GENETIC1':
+    elif SOLUTION is 'GENETIC':
         solution = compute_random_antenna_locations(antennas, pop_grid)
         people_covered = 0
         cost = 0
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     
     # read pop
     
-    pop_grid = read_img_grid("pop.png")
+    pop_grid = read_img_grid("../data/pop.png")
     width, height = len(pop_grid[0]), len(pop_grid)
     print "grid: %dx%d" % (width, height)
     total_pop = sum([sum(l) for l in pop_grid])
@@ -180,7 +180,7 @@ if __name__ == "__main__":
 
     # read costs
 
-    cost_grid = read_img_grid("cost.png")
+    cost_grid = read_img_grid("../data/cost.png")
     total_possible_costs = sum([sum(l) for l in cost_grid])
     print "total_possible_costs: %.02f" % total_possible_costs
 
@@ -191,7 +191,7 @@ if __name__ == "__main__":
 
     # read antennas and budget
 
-    antennas_and_budget = read_from_json('antennas_and_budget.json')
+    antennas_and_budget = read_from_json('../data/antennas_and_budget.json')
 
     antennas = antennas_and_budget['antennas']
     budget = antennas_and_budget['budget']
@@ -207,7 +207,7 @@ if __name__ == "__main__":
         solution = read_from_json(solution_path)
     else:
         solution = compute_best_solution(antennas, pop_grid, cost_grid, budget)
-        write_to_json(solution, 'solution.json')                
+        write_to_json(solution, '../results/solution.json')                
 
     # evaluate solution
     
@@ -217,5 +217,5 @@ if __name__ == "__main__":
     if costs > budget:
         print "-- warning, costs over budget: %d > %d" % (costs, budget)    
     
-    write_solution_image(antennas, pop_grid, cov_cost_grid, solution, "out.png")
+    write_solution_image(antennas, pop_grid, cov_cost_grid, solution, "../results/out.png")
     
