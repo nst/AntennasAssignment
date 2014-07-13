@@ -26,7 +26,7 @@ Such as:
 	budget: 1500
 	writing solution.json
 	people_covered: 76150 (22.30%), cost: 1177.427451
-	writing out.png
+	writing ../results/out.png
 
 #### Evaluate a solution
 
@@ -36,7 +36,7 @@ Such as:
 	total_possible_costs: 298744.75
 	budget: 1500
 	people_covered: 76348 (22.35%), cost: 1193.772549
-	writing out.png
+	writing ../results/out.png
 
 #### Sample solutions
 
